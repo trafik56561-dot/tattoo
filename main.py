@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 # Загружаем переменные из .env
 load_dotenv()
-BOT_API_TOKEN = os.getenv("8328428976:AAEy_mew10stTQSJO_LvGsrz3XyOkw9A4bg")
+BOT_API_TOKEN = os.getenv("BOT_API_TOKEN")
 
 if not BOT_API_TOKEN:
     raise ValueError("Не найден токен бота в .env файле!")
